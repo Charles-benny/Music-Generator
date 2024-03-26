@@ -9,10 +9,10 @@ body {
 
 }
 .card {
-    background: linear-gradient(145deg, #232323, #1A1A1A);
+    background: linear-gradient(145deg, #e71717, #1A1A1A);
     border: none;
     border-radius: 25px;
-    box-shadow: 0 0 20px #D63384;
+    box-shadow: 0 0 20px #000000;
 }
 .card-header {
     background-color: transparent;
@@ -41,11 +41,11 @@ body {
 }
 .form-control:focus {
     box-shadow: none;
-    color: white;
-    background-color: #1A1A1A;
+    color: rgb(15, 156, 90);
+    background-color: #13ce9f;
 }
 .form-label{
-    color: #FFFFFF;
+    color: #23c5bd;
 }
 .card-title {
     color: white; /* Ensure the text is white */
@@ -64,7 +64,7 @@ body {
     width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: #D63384;
+    background: #d63333;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -81,7 +81,7 @@ body {
     border-radius: 50%;
     background: #FFFFFF;
     cursor: pointer;
-    box-shadow: 0 0 10px #D63384;
+    box-shadow: 0 0 10px #bb0404;
 }
 .slider::-moz-range-thumb {
     width: 25px;
